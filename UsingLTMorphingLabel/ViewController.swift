@@ -11,8 +11,6 @@ import LTMorphingLabel
 
 class ViewController : UIViewController {
     
-    var aldenIsStupeedLabel = LTMorphingLabel()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
