@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F26D323EB2B5E2A335D0AFE /* Pods_UsingLTMorphingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10070F9D76218B0613213DA4 /* Pods_UsingLTMorphingLabelTests.framework */; };
+		58803D2514E7F9119C0867B7 /* Pods_UsingLTMorphingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4559A1F80B005ED3F98A51C8 /* Pods_UsingLTMorphingLabelUITests.framework */; };
+		93B8A9A5083BCE52EF7581FA /* Pods_UsingLTMorphingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920D5B658D18F43C743EF96E /* Pods_UsingLTMorphingLabel.framework */; };
 		BFDE9A081D0918D6006E3510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A071D0918D6006E3510 /* AppDelegate.swift */; };
 		BFDE9A0A1D0918D6006E3510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A091D0918D6006E3510 /* ViewController.swift */; };
 		BFDE9A0D1D0918D6006E3510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE9A0B1D0918D6006E3510 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10070F9D76218B0613213DA4 /* Pods_UsingLTMorphingLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsingLTMorphingLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA05FDC2C2F07921783AA62 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3365623E11EB3667713F15 /* Pods-UsingLTMorphingLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelUITests/Pods-UsingLTMorphingLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4559A1F80B005ED3F98A51C8 /* Pods_UsingLTMorphingLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsingLTMorphingLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A4432522F790D735B54CA8 /* Pods-UsingLTMorphingLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelTests/Pods-UsingLTMorphingLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		920D5B658D18F43C743EF96E /* Pods_UsingLTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsingLTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14EE36F579FFE70910E0E12 /* Pods-UsingLTMorphingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelUITests/Pods-UsingLTMorphingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAAC0D53484DA49026DA6DE3 /* Pods-UsingLTMorphingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel.release.xcconfig"; sourceTree = "<group>"; };
 		BFDE9A041D0918D6006E3510 /* UsingLTMorphingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingLTMorphingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE9A071D0918D6006E3510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFDE9A091D0918D6006E3510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,8 @@
 		BFDE9A231D0918D6006E3510 /* UsingLTMorphingLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingLTMorphingLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE9A271D0918D6006E3510 /* UsingLTMorphingLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLTMorphingLabelUITests.swift; sourceTree = "<group>"; };
 		BFDE9A291D0918D6006E3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D38EBBE73254103A8AE959 /* Pods-UsingLTMorphingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelTests/Pods-UsingLTMorphingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECEBE2D26DCB0650212DA2CE /* Pods-UsingLTMorphingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B8A9A5083BCE52EF7581FA /* Pods_UsingLTMorphingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F26D323EB2B5E2A335D0AFE /* Pods_UsingLTMorphingLabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58803D2514E7F9119C0867B7 /* Pods_UsingLTMorphingLabelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E107EB9112D9797308B70F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA05FDC2C2F07921783AA62 /* Pods.framework */,
+				920D5B658D18F43C743EF96E /* Pods_UsingLTMorphingLabel.framework */,
+				10070F9D76218B0613213DA4 /* Pods_UsingLTMorphingLabelTests.framework */,
+				4559A1F80B005ED3F98A51C8 /* Pods_UsingLTMorphingLabelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		277D25BFB79FD4316990053B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECEBE2D26DCB0650212DA2CE /* Pods-UsingLTMorphingLabel.debug.xcconfig */,
+				BAAC0D53484DA49026DA6DE3 /* Pods-UsingLTMorphingLabel.release.xcconfig */,
+				E5D38EBBE73254103A8AE959 /* Pods-UsingLTMorphingLabelTests.debug.xcconfig */,
+				67A4432522F790D735B54CA8 /* Pods-UsingLTMorphingLabelTests.release.xcconfig */,
+				B14EE36F579FFE70910E0E12 /* Pods-UsingLTMorphingLabelUITests.debug.xcconfig */,
+				3D3365623E11EB3667713F15 /* Pods-UsingLTMorphingLabelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BFDE99FB1D0918D6006E3510 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				BFDE9A1B1D0918D6006E3510 /* UsingLTMorphingLabelTests */,
 				BFDE9A261D0918D6006E3510 /* UsingLTMorphingLabelUITests */,
 				BFDE9A051D0918D6006E3510 /* Products */,
+				0E107EB9112D9797308B70F0 /* Frameworks */,
+				277D25BFB79FD4316990053B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFDE9A2C1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabel" */;
 			buildPhases = (
+				C1906BF85A543D749D95712C /* [CP] Check Pods Manifest.lock */,
 				BFDE9A001D0918D6006E3510 /* Sources */,
 				BFDE9A011D0918D6006E3510 /* Frameworks */,
 				BFDE9A021D0918D6006E3510 /* Resources */,
+				800116F7BAAE5C4DD8B9BFF8 /* [CP] Embed Pods Frameworks */,
+				74B6C765A8DAA3EF2734955E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFDE9A2F1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelTests" */;
 			buildPhases = (
+				014B01AA4A4501C6D27C9CA7 /* [CP] Check Pods Manifest.lock */,
 				BFDE9A141D0918D6006E3510 /* Sources */,
 				BFDE9A151D0918D6006E3510 /* Frameworks */,
 				BFDE9A161D0918D6006E3510 /* Resources */,
+				ACCB558B4870A1A430F56B41 /* [CP] Embed Pods Frameworks */,
+				87FEBF87997DE845E5304B6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFDE9A321D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelUITests" */;
 			buildPhases = (
+				53D66AAECC9C1481D2466CFE /* [CP] Check Pods Manifest.lock */,
 				BFDE9A1F1D0918D6006E3510 /* Sources */,
 				BFDE9A201D0918D6006E3510 /* Frameworks */,
 				BFDE9A211D0918D6006E3510 /* Resources */,
+				5E690694C3C0BF0007BB95B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +300,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014B01AA4A4501C6D27C9CA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53D66AAECC9C1481D2466CFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E690694C3C0BF0007BB95B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsingLTMorphingLabelUITests/Pods-UsingLTMorphingLabelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B6C765A8DAA3EF2734955E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800116F7BAAE5C4DD8B9BFF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87FEBF87997DE845E5304B6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsingLTMorphingLabelTests/Pods-UsingLTMorphingLabelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACCB558B4870A1A430F56B41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsingLTMorphingLabelTests/Pods-UsingLTMorphingLabelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1906BF85A543D749D95712C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFDE9A001D0918D6006E3510 /* Sources */ = {
@@ -397,6 +570,7 @@
 		};
 		BFDE9A2D1D0918D6006E3510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEBE2D26DCB0650212DA2CE /* Pods-UsingLTMorphingLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UsingLTMorphingLabel/Info.plist;
@@ -408,6 +582,7 @@
 		};
 		BFDE9A2E1D0918D6006E3510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAC0D53484DA49026DA6DE3 /* Pods-UsingLTMorphingLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UsingLTMorphingLabel/Info.plist;
@@ -419,6 +594,7 @@
 		};
 		BFDE9A301D0918D6006E3510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D38EBBE73254103A8AE959 /* Pods-UsingLTMorphingLabelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = UsingLTMorphingLabelTests/Info.plist;
@@ -431,6 +607,7 @@
 		};
 		BFDE9A311D0918D6006E3510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A4432522F790D735B54CA8 /* Pods-UsingLTMorphingLabelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = UsingLTMorphingLabelTests/Info.plist;
@@ -443,6 +620,7 @@
 		};
 		BFDE9A331D0918D6006E3510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14EE36F579FFE70910E0E12 /* Pods-UsingLTMorphingLabelUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = UsingLTMorphingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +632,7 @@
 		};
 		BFDE9A341D0918D6006E3510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3365623E11EB3667713F15 /* Pods-UsingLTMorphingLabelUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = UsingLTMorphingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +661,7 @@
 				BFDE9A2E1D0918D6006E3510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDE9A2F1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +670,7 @@
 				BFDE9A311D0918D6006E3510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDE9A321D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +679,7 @@
 				BFDE9A341D0918D6006E3510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
