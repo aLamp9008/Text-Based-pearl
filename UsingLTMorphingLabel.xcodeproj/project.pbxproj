@@ -17,6 +17,9 @@
 		BFDE9A121D0918D6006E3510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE9A101D0918D6006E3510 /* LaunchScreen.storyboard */; };
 		BFDE9A1D1D0918D6006E3510 /* UsingLTMorphingLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A1C1D0918D6006E3510 /* UsingLTMorphingLabelTests.swift */; };
 		BFDE9A281D0918D6006E3510 /* UsingLTMorphingLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A271D0918D6006E3510 /* UsingLTMorphingLabelUITests.swift */; };
+		BFDE9A471D0AEA69006E3510 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A461D0AEA69006E3510 /* IntroViewController.swift */; };
+		BFDE9A4D1D0AF03E006E3510 /* CALayer+DrawAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A4A1D0AF03E006E3510 /* CALayer+DrawAnimation.m */; };
+		BFDE9A4E1D0AF03E006E3510 /* UILabel+DrawAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A4C1D0AF03E006E3510 /* UILabel+DrawAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,12 @@
 		BFDE9A231D0918D6006E3510 /* UsingLTMorphingLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingLTMorphingLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE9A271D0918D6006E3510 /* UsingLTMorphingLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLTMorphingLabelUITests.swift; sourceTree = "<group>"; };
 		BFDE9A291D0918D6006E3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDE9A461D0AEA69006E3510 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		BFDE9A481D0AF03E006E3510 /* UsingLTMorphingLabel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UsingLTMorphingLabel-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFDE9A491D0AF03E006E3510 /* CALayer+DrawAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+DrawAnimation.h"; sourceTree = "<group>"; };
+		BFDE9A4A1D0AF03E006E3510 /* CALayer+DrawAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+DrawAnimation.m"; sourceTree = "<group>"; };
+		BFDE9A4B1D0AF03E006E3510 /* UILabel+DrawAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DrawAnimation.h"; sourceTree = "<group>"; };
+		BFDE9A4C1D0AF03E006E3510 /* UILabel+DrawAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DrawAnimation.m"; sourceTree = "<group>"; };
 		E5D38EBBE73254103A8AE959 /* Pods-UsingLTMorphingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelTests/Pods-UsingLTMorphingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECEBE2D26DCB0650212DA2CE /* Pods-UsingLTMorphingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,10 +149,16 @@
 			isa = PBXGroup;
 			children = (
 				BFDE9A071D0918D6006E3510 /* AppDelegate.swift */,
+				BFDE9A461D0AEA69006E3510 /* IntroViewController.swift */,
 				BFDE9A091D0918D6006E3510 /* ViewController.swift */,
 				BFDE9A0B1D0918D6006E3510 /* Main.storyboard */,
 				BFDE9A0E1D0918D6006E3510 /* Assets.xcassets */,
 				BFDE9A101D0918D6006E3510 /* LaunchScreen.storyboard */,
+				BFDE9A491D0AF03E006E3510 /* CALayer+DrawAnimation.h */,
+				BFDE9A4A1D0AF03E006E3510 /* CALayer+DrawAnimation.m */,
+				BFDE9A4B1D0AF03E006E3510 /* UILabel+DrawAnimation.h */,
+				BFDE9A4C1D0AF03E006E3510 /* UILabel+DrawAnimation.m */,
+				BFDE9A481D0AF03E006E3510 /* UsingLTMorphingLabel-Bridging-Header.h */,
 				BFDE9A131D0918D6006E3510 /* Info.plist */,
 			);
 			path = UsingLTMorphingLabel;
@@ -429,8 +444,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDE9A4D1D0AF03E006E3510 /* CALayer+DrawAnimation.m in Sources */,
 				BFDE9A0A1D0918D6006E3510 /* ViewController.swift in Sources */,
 				BFDE9A081D0918D6006E3510 /* AppDelegate.swift in Sources */,
+				BFDE9A471D0AEA69006E3510 /* IntroViewController.swift in Sources */,
+				BFDE9A4E1D0AF03E006E3510 /* UILabel+DrawAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,10 +591,13 @@
 			baseConfigurationReference = ECEBE2D26DCB0650212DA2CE /* Pods-UsingLTMorphingLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = UsingLTMorphingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UsingLTMorphingLabel/UsingLTMorphingLabel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -585,10 +606,12 @@
 			baseConfigurationReference = BAAC0D53484DA49026DA6DE3 /* Pods-UsingLTMorphingLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = UsingLTMorphingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UsingLTMorphingLabel/UsingLTMorphingLabel-Bridging-Header.h";
 			};
 			name = Release;
 		};
