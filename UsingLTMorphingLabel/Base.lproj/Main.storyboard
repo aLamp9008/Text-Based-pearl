@@ -49,6 +49,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="startButton:" destination="n70-JB-HRn" eventType="touchUpInside" id="PFT-C2-CVh"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="partialCurl" id="VIa-oU-ViI"/>
                                 </connections>
                             </button>
                         </subviews>
