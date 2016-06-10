@@ -96,15 +96,26 @@ class IntroViewController: UIViewController {
             instructionLabel4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
         }
         delay(15) {
-            let instructionLabel4 = UILabel(frame: CGRectMake(0, 260, self.view.frame.width, 100))
-            instructionLabel4.textAlignment = .Center
-            instructionLabel4.text = "to see themes and symbols tap the "
-            instructionLabel4.alpha = 1.0
-            instructionLabel4.textColor = self.color
-            instructionLabel4.font = self.font
-            self.view.addSubview(instructionLabel4)
-            instructionLabel4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+            let instructionLabel5 = UILabel(frame: CGRectMake(0, 260, self.view.frame.width, 100))
+            instructionLabel5.textAlignment = .Center
+            instructionLabel5.text = "to see themes and symbols"
+            instructionLabel5.alpha = 1.0
+            instructionLabel5.textColor = self.color
+            instructionLabel5.font = self.font
+            self.view.addSubview(instructionLabel5)
+            instructionLabel5.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
         }
+        delay(16.8) {
+            let instructionLabel6 = UILabel(frame: CGRectMake(0, 290, self.view.frame.width, 100))
+            instructionLabel6.textAlignment = .Center
+            instructionLabel6.text = "tap the respective button"
+            instructionLabel6.alpha = 1.0
+            instructionLabel6.textColor = self.color
+            instructionLabel6.font = self.font
+            self.view.addSubview(instructionLabel6)
+            instructionLabel6.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+        }
+
     }
     
     
