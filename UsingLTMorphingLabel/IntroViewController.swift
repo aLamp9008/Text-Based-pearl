@@ -25,7 +25,10 @@ class IntroViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var welcomeLabel = LTMorphingLabel(frame: CGRectMake(0,45,self.view.frame.width, 100))
+        
+        
+        
+        let welcomeLabel = LTMorphingLabel(frame: CGRectMake(0,45,self.view.frame.width, 100))
         welcomeLabel.font = UIFont(name: "Avenir", size: 25)
         welcomeLabel.text = "Welome to pearl text based app"
         welcomeLabel.alpha = 1.0
