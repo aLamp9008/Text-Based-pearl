@@ -21,11 +21,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-06-10 at 8.23.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="UU9-IV-zXL">
                                 <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3h-X4-fNG">
-                                <rect key="frame" x="84" y="451" width="206" height="69"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3h-X4-fNG">
+                                <rect key="frame" x="84" y="527" width="206" height="69"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="206" id="Fkg-OW-dYY"/>
                                     <constraint firstAttribute="height" constant="69" id="HAf-Dm-yje"/>
+                                    <constraint firstAttribute="width" constant="206" id="HE8-WO-CHI"/>
+                                    <constraint firstAttribute="height" constant="69" id="nt4-FG-46g"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="33"/>
                                 <state key="normal" title="Start!" backgroundImage="Buttonbackground">
@@ -37,6 +39,12 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Fkg-OW-dYY"/>
+                                        <exclude reference="HAf-Dm-yje"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="startButton:" destination="n70-JB-HRn" eventType="touchUpInside" id="PFT-C2-CVh"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="partialCurl" id="VIa-oU-ViI"/>
@@ -46,11 +54,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UU9-IV-zXL" firstAttribute="top" secondItem="qQM-rr-uaJ" secondAttribute="topMargin" id="1BY-MQ-Fcm"/>
+                            <constraint firstItem="X3h-X4-fNG" firstAttribute="top" secondItem="FDW-On-U7x" secondAttribute="bottom" constant="507" id="5pR-hX-a2O"/>
                             <constraint firstItem="R15-g0-mh0" firstAttribute="top" secondItem="UU9-IV-zXL" secondAttribute="bottom" id="84a-6w-pSM"/>
                             <constraint firstItem="X3h-X4-fNG" firstAttribute="centerX" secondItem="qQM-rr-uaJ" secondAttribute="centerX" id="KFT-cG-fDW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UU9-IV-zXL" secondAttribute="trailing" constant="-20" id="TRr-d6-Iow"/>
+                            <constraint firstItem="X3h-X4-fNG" firstAttribute="centerX" secondItem="qQM-rr-uaJ" secondAttribute="centerX" id="U9r-d9-oKG"/>
                             <constraint firstItem="UU9-IV-zXL" firstAttribute="leading" secondItem="qQM-rr-uaJ" secondAttribute="leadingMargin" constant="-20" id="Uob-kP-6tL"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KFT-cG-fDW"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
