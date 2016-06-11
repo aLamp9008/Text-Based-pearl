@@ -52,9 +52,9 @@ class IntroViewController: UIViewController {
             instructionLabel.textColor = self.color
             instructionLabel.font = self.font
             self.view.addSubview(instructionLabel)
-            instructionLabel.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+            instructionLabel.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
-        delay(7.8) {
+        delay(7) {
             let instructionLabel2 = UILabel(frame: CGRectMake(0, 115, self.view.frame.width, 100))
             instructionLabel2.textAlignment = .Center
             instructionLabel2.text = "following his path through Steinbeck’s"
@@ -62,9 +62,9 @@ class IntroViewController: UIViewController {
             instructionLabel2.textColor = self.color
             instructionLabel2.font = self.font
             self.view.addSubview(instructionLabel2)
-            instructionLabel2.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+            instructionLabel2.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
-        delay(9.6) { 
+        delay(8) {
             let instructionLabel3 = UILabel(frame: CGRectMake(0, 145, self.view.frame.width, 100))
             instructionLabel3.textAlignment = .Center
             instructionLabel3.text = "The Pearl"
@@ -73,9 +73,9 @@ class IntroViewController: UIViewController {
             instructionLabel3.font = self.font
             instructionLabel3
             self.view.addSubview(instructionLabel3)
-            instructionLabel3.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+            instructionLabel3.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
-        delay(11.4) { 
+        delay(9) {
             let instructionLabel4 = UILabel(frame: CGRectMake(0, 175, self.view.frame.width, 100))
             instructionLabel4.textAlignment = .Center
             instructionLabel4.text = "If you do not follow his path you will live"
@@ -83,9 +83,9 @@ class IntroViewController: UIViewController {
             instructionLabel4.textColor = self.color
             instructionLabel4.font = self.font
             self.view.addSubview(instructionLabel4)
-            instructionLabel4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+            instructionLabel4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
-        delay(13.2) {
+        delay(10) {
             let instructionLabel5 = UILabel(frame: CGRectMake(0, 265, self.view.frame.width, 100))
             instructionLabel5.textAlignment = .Center
             instructionLabel5.text = "to see themes and symbols"
@@ -93,9 +93,9 @@ class IntroViewController: UIViewController {
             instructionLabel5.textColor = self.color
             instructionLabel5.font = self.font
             self.view.addSubview(instructionLabel5)
-            instructionLabel5.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+            instructionLabel5.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
-        delay(15) {
+        delay(11) {
             let instructionLabel6 = UILabel(frame: CGRectMake(0, 295, self.view.frame.width, 100))
             instructionLabel6.textAlignment = .Center
             instructionLabel6.text = "tap the respective button"
@@ -103,7 +103,7 @@ class IntroViewController: UIViewController {
             instructionLabel6.textColor = self.color
             instructionLabel6.font = self.font
             self.view.addSubview(instructionLabel6)
-            instructionLabel6.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
+            instructionLabel6.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
 
     }
