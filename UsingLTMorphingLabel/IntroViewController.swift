@@ -25,7 +25,7 @@ class IntroViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var welcomeLabel = LTMorphingLabel(frame: CGRectMake(0,40,self.view.frame.width, 100))
+        var welcomeLabel = LTMorphingLabel(frame: CGRectMake(0,45,self.view.frame.width, 100))
         welcomeLabel.font = UIFont(name: "Avenir", size: 25)
         welcomeLabel.text = "Welome to pearl text based app"
         welcomeLabel.alpha = 1.0
@@ -38,14 +38,11 @@ class IntroViewController: UIViewController {
         delay(3.0){
             welcomeLabel.text = "Want to play a game?"
         }
-        delay(5.5) {
-            welcomeLabel.text = ""
-        }
         delay(6.0) {
             
             
             
-            let instructionLabel = UILabel(frame: CGRectMake(0, 80, self.view.frame.width, 100))
+            let instructionLabel = UILabel(frame: CGRectMake(0, 85, self.view.frame.width, 100))
             instructionLabel.textAlignment = .Center
             instructionLabel.text = "You are in Kino’s shoes and are"
             instructionLabel.alpha = 1.0
@@ -55,7 +52,7 @@ class IntroViewController: UIViewController {
             instructionLabel.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
         }
         delay(7.8) {
-            let instructionLabel2 = UILabel(frame: CGRectMake(0, 110, self.view.frame.width, 100))
+            let instructionLabel2 = UILabel(frame: CGRectMake(0, 115, self.view.frame.width, 100))
             instructionLabel2.textAlignment = .Center
             instructionLabel2.text = "following his path through Steinbeck’s"
             instructionLabel2.alpha = 1.0
@@ -65,7 +62,7 @@ class IntroViewController: UIViewController {
             instructionLabel2.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
         }
         delay(9.6) { 
-            let instructionLabel3 = UILabel(frame: CGRectMake(0, 140, self.view.frame.width, 100))
+            let instructionLabel3 = UILabel(frame: CGRectMake(0, 145, self.view.frame.width, 100))
             instructionLabel3.textAlignment = .Center
             instructionLabel3.text = "The Pearl"
             instructionLabel3.alpha = 1.0
@@ -76,7 +73,7 @@ class IntroViewController: UIViewController {
             instructionLabel3.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
         }
         delay(11.4) { 
-            let instructionLabel4 = UILabel(frame: CGRectMake(0, 170, self.view.frame.width, 100))
+            let instructionLabel4 = UILabel(frame: CGRectMake(0, 175, self.view.frame.width, 100))
             instructionLabel4.textAlignment = .Center
             instructionLabel4.text = "If you do not follow his path you will live"
             instructionLabel4.alpha = 1.0
@@ -86,17 +83,7 @@ class IntroViewController: UIViewController {
             instructionLabel4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
         }
         delay(13.2) {
-            let instructionLabel4 = UILabel(frame: CGRectMake(0, 200, self.view.frame.width, 100))
-            instructionLabel4.textAlignment = .Center
-            instructionLabel4.text = "happily ever after."
-            instructionLabel4.alpha = 1.0
-            instructionLabel4.textColor = self.color
-            instructionLabel4.font = self.font
-            self.view.addSubview(instructionLabel4)
-            instructionLabel4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
-        }
-        delay(15) {
-            let instructionLabel5 = UILabel(frame: CGRectMake(0, 260, self.view.frame.width, 100))
+            let instructionLabel5 = UILabel(frame: CGRectMake(0, 265, self.view.frame.width, 100))
             instructionLabel5.textAlignment = .Center
             instructionLabel5.text = "to see themes and symbols"
             instructionLabel5.alpha = 1.0
@@ -105,8 +92,8 @@ class IntroViewController: UIViewController {
             self.view.addSubview(instructionLabel5)
             instructionLabel5.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 2, fadeToLabel: false)
         }
-        delay(16.8) {
-            let instructionLabel6 = UILabel(frame: CGRectMake(0, 290, self.view.frame.width, 100))
+        delay(15) {
+            let instructionLabel6 = UILabel(frame: CGRectMake(0, 295, self.view.frame.width, 100))
             instructionLabel6.textAlignment = .Center
             instructionLabel6.text = "tap the respective button"
             instructionLabel6.alpha = 1.0
