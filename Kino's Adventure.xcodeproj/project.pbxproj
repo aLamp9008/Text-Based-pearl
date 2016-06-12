@@ -10,8 +10,10 @@
 		4F26D323EB2B5E2A335D0AFE /* Pods_UsingLTMorphingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10070F9D76218B0613213DA4 /* Pods_UsingLTMorphingLabelTests.framework */; };
 		58803D2514E7F9119C0867B7 /* Pods_UsingLTMorphingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4559A1F80B005ED3F98A51C8 /* Pods_UsingLTMorphingLabelUITests.framework */; };
 		93B8A9A5083BCE52EF7581FA /* Pods_UsingLTMorphingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920D5B658D18F43C743EF96E /* Pods_UsingLTMorphingLabel.framework */; };
+		BF030ED31D0C6D4B0082EE58 /* SecondSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF030ED21D0C6D4B0082EE58 /* SecondSlide.swift */; };
+		BF030ED51D0C6F120082EE58 /* ThemesAndSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF030ED41D0C6F120082EE58 /* ThemesAndSymbols.swift */; };
 		BFDE9A081D0918D6006E3510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A071D0918D6006E3510 /* AppDelegate.swift */; };
-		BFDE9A0A1D0918D6006E3510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A091D0918D6006E3510 /* ViewController.swift */; };
+		BFDE9A0A1D0918D6006E3510 /* FirstSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A091D0918D6006E3510 /* FirstSlide.swift */; };
 		BFDE9A0D1D0918D6006E3510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE9A0B1D0918D6006E3510 /* Main.storyboard */; };
 		BFDE9A0F1D0918D6006E3510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDE9A0E1D0918D6006E3510 /* Assets.xcassets */; };
 		BFDE9A121D0918D6006E3510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE9A101D0918D6006E3510 /* LaunchScreen.storyboard */; };
@@ -48,17 +50,19 @@
 		920D5B658D18F43C743EF96E /* Pods_UsingLTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsingLTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14EE36F579FFE70910E0E12 /* Pods-UsingLTMorphingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelUITests/Pods-UsingLTMorphingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAAC0D53484DA49026DA6DE3 /* Pods-UsingLTMorphingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel.release.xcconfig"; sourceTree = "<group>"; };
-		BFDE9A041D0918D6006E3510 /* UsingLTMorphingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingLTMorphingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF030ED21D0C6D4B0082EE58 /* SecondSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSlide.swift; sourceTree = "<group>"; };
+		BF030ED41D0C6F120082EE58 /* ThemesAndSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesAndSymbols.swift; sourceTree = "<group>"; };
+		BFDE9A041D0918D6006E3510 /* Kino's Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kino's Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE9A071D0918D6006E3510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFDE9A091D0918D6006E3510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFDE9A091D0918D6006E3510 /* FirstSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSlide.swift; sourceTree = "<group>"; };
 		BFDE9A0C1D0918D6006E3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFDE9A0E1D0918D6006E3510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFDE9A111D0918D6006E3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFDE9A131D0918D6006E3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFDE9A181D0918D6006E3510 /* UsingLTMorphingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingLTMorphingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDE9A181D0918D6006E3510 /* Kino's Adventure.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kino's Adventure.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE9A1C1D0918D6006E3510 /* UsingLTMorphingLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLTMorphingLabelTests.swift; sourceTree = "<group>"; };
 		BFDE9A1E1D0918D6006E3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFDE9A231D0918D6006E3510 /* UsingLTMorphingLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingLTMorphingLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDE9A231D0918D6006E3510 /* Kino's Adventure.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kino's Adventure.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE9A271D0918D6006E3510 /* UsingLTMorphingLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLTMorphingLabelUITests.swift; sourceTree = "<group>"; };
 		BFDE9A291D0918D6006E3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFDE9A461D0AEA69006E3510 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
@@ -138,9 +142,9 @@
 		BFDE9A051D0918D6006E3510 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFDE9A041D0918D6006E3510 /* UsingLTMorphingLabel.app */,
-				BFDE9A181D0918D6006E3510 /* UsingLTMorphingLabelTests.xctest */,
-				BFDE9A231D0918D6006E3510 /* UsingLTMorphingLabelUITests.xctest */,
+				BFDE9A041D0918D6006E3510 /* Kino's Adventure.app */,
+				BFDE9A181D0918D6006E3510 /* Kino's Adventure.xctest */,
+				BFDE9A231D0918D6006E3510 /* Kino's Adventure.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +154,9 @@
 			children = (
 				BFDE9A071D0918D6006E3510 /* AppDelegate.swift */,
 				BFDE9A461D0AEA69006E3510 /* IntroViewController.swift */,
-				BFDE9A091D0918D6006E3510 /* ViewController.swift */,
+				BFDE9A091D0918D6006E3510 /* FirstSlide.swift */,
+				BF030ED21D0C6D4B0082EE58 /* SecondSlide.swift */,
+				BF030ED41D0C6F120082EE58 /* ThemesAndSymbols.swift */,
 				BFDE9A0B1D0918D6006E3510 /* Main.storyboard */,
 				BFDE9A0E1D0918D6006E3510 /* Assets.xcassets */,
 				BFDE9A101D0918D6006E3510 /* LaunchScreen.storyboard */,
@@ -185,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFDE9A031D0918D6006E3510 /* UsingLTMorphingLabel */ = {
+		BFDE9A031D0918D6006E3510 /* Kino's Adventure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFDE9A2C1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabel" */;
+			buildConfigurationList = BFDE9A2C1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "Kino's Adventure" */;
 			buildPhases = (
 				C1906BF85A543D749D95712C /* [CP] Check Pods Manifest.lock */,
 				BFDE9A001D0918D6006E3510 /* Sources */,
@@ -200,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = UsingLTMorphingLabel;
+			name = "Kino's Adventure";
 			productName = UsingLTMorphingLabel;
-			productReference = BFDE9A041D0918D6006E3510 /* UsingLTMorphingLabel.app */;
+			productReference = BFDE9A041D0918D6006E3510 /* Kino's Adventure.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFDE9A171D0918D6006E3510 /* UsingLTMorphingLabelTests */ = {
+		BFDE9A171D0918D6006E3510 /* Kino's AdventureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFDE9A2F1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelTests" */;
+			buildConfigurationList = BFDE9A2F1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "Kino's AdventureTests" */;
 			buildPhases = (
 				014B01AA4A4501C6D27C9CA7 /* [CP] Check Pods Manifest.lock */,
 				BFDE9A141D0918D6006E3510 /* Sources */,
@@ -221,14 +227,14 @@
 			dependencies = (
 				BFDE9A1A1D0918D6006E3510 /* PBXTargetDependency */,
 			);
-			name = UsingLTMorphingLabelTests;
+			name = "Kino's AdventureTests";
 			productName = UsingLTMorphingLabelTests;
-			productReference = BFDE9A181D0918D6006E3510 /* UsingLTMorphingLabelTests.xctest */;
+			productReference = BFDE9A181D0918D6006E3510 /* Kino's Adventure.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BFDE9A221D0918D6006E3510 /* UsingLTMorphingLabelUITests */ = {
+		BFDE9A221D0918D6006E3510 /* Kino's AdventureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFDE9A321D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelUITests" */;
+			buildConfigurationList = BFDE9A321D0918D6006E3510 /* Build configuration list for PBXNativeTarget "Kino's AdventureUITests" */;
 			buildPhases = (
 				53D66AAECC9C1481D2466CFE /* [CP] Check Pods Manifest.lock */,
 				BFDE9A1F1D0918D6006E3510 /* Sources */,
@@ -241,9 +247,9 @@
 			dependencies = (
 				BFDE9A251D0918D6006E3510 /* PBXTargetDependency */,
 			);
-			name = UsingLTMorphingLabelUITests;
+			name = "Kino's AdventureUITests";
 			productName = UsingLTMorphingLabelUITests;
-			productReference = BFDE9A231D0918D6006E3510 /* UsingLTMorphingLabelUITests.xctest */;
+			productReference = BFDE9A231D0918D6006E3510 /* Kino's Adventure.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -269,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BFDE99FF1D0918D6006E3510 /* Build configuration list for PBXProject "UsingLTMorphingLabel" */;
+			buildConfigurationList = BFDE99FF1D0918D6006E3510 /* Build configuration list for PBXProject "Kino's Adventure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -282,9 +288,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFDE9A031D0918D6006E3510 /* UsingLTMorphingLabel */,
-				BFDE9A171D0918D6006E3510 /* UsingLTMorphingLabelTests */,
-				BFDE9A221D0918D6006E3510 /* UsingLTMorphingLabelUITests */,
+				BFDE9A031D0918D6006E3510 /* Kino's Adventure */,
+				BFDE9A171D0918D6006E3510 /* Kino's AdventureTests */,
+				BFDE9A221D0918D6006E3510 /* Kino's AdventureUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -445,7 +451,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFDE9A4D1D0AF03E006E3510 /* CALayer+DrawAnimation.m in Sources */,
-				BFDE9A0A1D0918D6006E3510 /* ViewController.swift in Sources */,
+				BF030ED31D0C6D4B0082EE58 /* SecondSlide.swift in Sources */,
+				BF030ED51D0C6F120082EE58 /* ThemesAndSymbols.swift in Sources */,
+				BFDE9A0A1D0918D6006E3510 /* FirstSlide.swift in Sources */,
 				BFDE9A081D0918D6006E3510 /* AppDelegate.swift in Sources */,
 				BFDE9A471D0AEA69006E3510 /* IntroViewController.swift in Sources */,
 				BFDE9A4E1D0AF03E006E3510 /* UILabel+DrawAnimation.m in Sources */,
@@ -473,12 +481,12 @@
 /* Begin PBXTargetDependency section */
 		BFDE9A1A1D0918D6006E3510 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFDE9A031D0918D6006E3510 /* UsingLTMorphingLabel */;
+			target = BFDE9A031D0918D6006E3510 /* Kino's Adventure */;
 			targetProxy = BFDE9A191D0918D6006E3510 /* PBXContainerItemProxy */;
 		};
 		BFDE9A251D0918D6006E3510 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFDE9A031D0918D6006E3510 /* UsingLTMorphingLabel */;
+			target = BFDE9A031D0918D6006E3510 /* Kino's Adventure */;
 			targetProxy = BFDE9A241D0918D6006E3510 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -594,8 +602,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = UsingLTMorphingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.KinosAdventure;
+				PRODUCT_NAME = "Kino's Adventure";
 				SWIFT_OBJC_BRIDGING_HEADER = "UsingLTMorphingLabel/UsingLTMorphingLabel-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -609,8 +617,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = UsingLTMorphingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.KinosAdventure;
+				PRODUCT_NAME = "Kino's Adventure";
 				SWIFT_OBJC_BRIDGING_HEADER = "UsingLTMorphingLabel/UsingLTMorphingLabel-Bridging-Header.h";
 			};
 			name = Release;
@@ -623,8 +631,8 @@
 				INFOPLIST_FILE = UsingLTMorphingLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingLTMorphingLabel.app/UsingLTMorphingLabel";
+				PRODUCT_NAME = "Kino's Adventure";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kino's Adventure.app/Kino's Adventure";
 			};
 			name = Debug;
 		};
@@ -636,8 +644,8 @@
 				INFOPLIST_FILE = UsingLTMorphingLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingLTMorphingLabel.app/UsingLTMorphingLabel";
+				PRODUCT_NAME = "Kino's Adventure";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kino's Adventure.app/Kino's Adventure";
 			};
 			name = Release;
 		};
@@ -648,7 +656,7 @@
 				INFOPLIST_FILE = UsingLTMorphingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Kino's Adventure";
 				TEST_TARGET_NAME = UsingLTMorphingLabel;
 			};
 			name = Debug;
@@ -660,7 +668,7 @@
 				INFOPLIST_FILE = UsingLTMorphingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isotonic.UsingLTMorphingLabelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Kino's Adventure";
 				TEST_TARGET_NAME = UsingLTMorphingLabel;
 			};
 			name = Release;
@@ -668,7 +676,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFDE99FF1D0918D6006E3510 /* Build configuration list for PBXProject "UsingLTMorphingLabel" */ = {
+		BFDE99FF1D0918D6006E3510 /* Build configuration list for PBXProject "Kino's Adventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFDE9A2A1D0918D6006E3510 /* Debug */,
@@ -677,7 +685,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFDE9A2C1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabel" */ = {
+		BFDE9A2C1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "Kino's Adventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFDE9A2D1D0918D6006E3510 /* Debug */,
@@ -686,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFDE9A2F1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelTests" */ = {
+		BFDE9A2F1D0918D6006E3510 /* Build configuration list for PBXNativeTarget "Kino's AdventureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFDE9A301D0918D6006E3510 /* Debug */,
@@ -695,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFDE9A321D0918D6006E3510 /* Build configuration list for PBXNativeTarget "UsingLTMorphingLabelUITests" */ = {
+		BFDE9A321D0918D6006E3510 /* Build configuration list for PBXNativeTarget "Kino's AdventureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFDE9A331D0918D6006E3510 /* Debug */,
