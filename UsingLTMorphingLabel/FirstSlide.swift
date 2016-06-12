@@ -15,7 +15,7 @@ public var isTheme = false
 class FirstSlide : UIViewController {
     
 
-    let font = UIFont(name: "Avenir", size: 21)
+    let font = UIFont(name: "avenir", size: 21)
     let color = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1.00)
     var distance = 35
     func makeLabel(whichLabel: Int) -> UILabel{
@@ -34,15 +34,15 @@ class FirstSlide : UIViewController {
         case 2:
             label.text = "your house. As you go through the"
         case 3:
-            label.text = "normal morning routine you your"
+            label.text = "normal morning routine, your"
         case 4:
             label.text = "wife, Juana, sees a scorpion near"
         case 5:
             label.text = "Coyotito, your baby. In an attempt"
         case 6:
-            label.text = "to save the baby, Coyotito gets stung"
-        case 7:
-            label.text = "you are left with two options."
+            label.text = "to save the baby, Coyotito gets stung."
+        case 8:
+            label.text = "You are left with two options."
         default:
             break
         }
@@ -70,35 +70,35 @@ class FirstSlide : UIViewController {
         let label4 = makeLabel(4)
         let label5 = makeLabel(5)
         let label6 = makeLabel(6)
-        let label7 = makeLabel(7)
+        let label7 = makeLabel(8)
         
         delay(1.0){
             self.view.addSubview(label0)
-            label0.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+            label0.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
             self.delay(1.0, closure: {
                 self.view.addSubview(label1)
-                label1.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+                label1.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
                 self.delay(1.0, closure: {
                     self.view.addSubview(label2)
-                    label2.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+                    label2.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
                     self.delay(1.0, closure: {
                         self.view.addSubview(label3)
-                        label3.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+                        label3.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
                         self.delay(1.0, closure: {
                             self.view.addSubview(label4)
-                            label4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+                            label4.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
                             self.delay(1.0, closure: {
                                 self.view.addSubview(label5)
-                                label5.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+                                label5.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
                                 self.delay(1.0, closure: {
                                     self.view.addSubview(label6)
-                                    label6.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+                                    label6.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
                                     self.delay(1.0, closure: {
                                         self.view.addSubview(label7)
-                                        label7.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+                                        label7.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
                                         self.delay(1.0, closure: {
                                             self.option1.setTitle("go to the doctor for help", forState: .Normal)
-                                            self.option2.setTitle("rely on Juana curing him", forState: .Normal)
+                                            self.option2.setTitle("rely on Juana to cure him", forState: .Normal)
                                         })
                                     })
                                 })

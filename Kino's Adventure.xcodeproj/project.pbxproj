@@ -22,6 +22,8 @@
 		BFDE9A471D0AEA69006E3510 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A461D0AEA69006E3510 /* IntroViewController.swift */; };
 		BFDE9A4D1D0AF03E006E3510 /* CALayer+DrawAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A4A1D0AF03E006E3510 /* CALayer+DrawAnimation.m */; };
 		BFDE9A4E1D0AF03E006E3510 /* UILabel+DrawAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A4C1D0AF03E006E3510 /* UILabel+DrawAnimation.m */; };
+		D9F339361D0CF720007C5A97 /* ThirdSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F339351D0CF720007C5A97 /* ThirdSlide.swift */; };
+		D9F339381D0CF804007C5A97 /* FourthSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F339371D0CF804007C5A97 /* FourthSlide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		BFDE9A4A1D0AF03E006E3510 /* CALayer+DrawAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+DrawAnimation.m"; sourceTree = "<group>"; };
 		BFDE9A4B1D0AF03E006E3510 /* UILabel+DrawAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DrawAnimation.h"; sourceTree = "<group>"; };
 		BFDE9A4C1D0AF03E006E3510 /* UILabel+DrawAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DrawAnimation.m"; sourceTree = "<group>"; };
+		D9F339351D0CF720007C5A97 /* ThirdSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdSlide.swift; sourceTree = "<group>"; };
+		D9F339371D0CF804007C5A97 /* FourthSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthSlide.swift; sourceTree = "<group>"; };
 		E5D38EBBE73254103A8AE959 /* Pods-UsingLTMorphingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelTests/Pods-UsingLTMorphingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECEBE2D26DCB0650212DA2CE /* Pods-UsingLTMorphingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +162,8 @@
 				BF030ED21D0C6D4B0082EE58 /* SecondSlide.swift */,
 				BF030ED41D0C6F120082EE58 /* ThemesAndSymbols.swift */,
 				BFDE9A0B1D0918D6006E3510 /* Main.storyboard */,
+				D9F339371D0CF804007C5A97 /* FourthSlide.swift */,
+				D9F339351D0CF720007C5A97 /* ThirdSlide.swift */,
 				BFDE9A0E1D0918D6006E3510 /* Assets.xcassets */,
 				BFDE9A101D0918D6006E3510 /* LaunchScreen.storyboard */,
 				BFDE9A491D0AF03E006E3510 /* CALayer+DrawAnimation.h */,
@@ -457,6 +463,8 @@
 				BFDE9A081D0918D6006E3510 /* AppDelegate.swift in Sources */,
 				BFDE9A471D0AEA69006E3510 /* IntroViewController.swift in Sources */,
 				BFDE9A4E1D0AF03E006E3510 /* UILabel+DrawAnimation.m in Sources */,
+				D9F339361D0CF720007C5A97 /* ThirdSlide.swift in Sources */,
+				D9F339381D0CF804007C5A97 /* FourthSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

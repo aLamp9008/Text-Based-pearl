@@ -17,7 +17,7 @@ class IntroViewController: UIViewController {
     
     @IBOutlet weak var buttonOut: UIButton!
     
-    let font = UIFont(name: "Avenir", size: 21)
+    let font = UIFont(name: "Avenir", size: 25)
     let color = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1.00)
     
     override func viewDidLoad() {
@@ -60,7 +60,6 @@ class IntroViewController: UIViewController {
             instructionLabel.alpha = 1.0
             instructionLabel.textColor = self.color
             instructionLabel.font = self.font
-            instructionLabel.fitFontForSize()
             self.view.addSubview(instructionLabel)
             instructionLabel.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
@@ -71,18 +70,16 @@ class IntroViewController: UIViewController {
             instructionLabel2.alpha = 1.0
             instructionLabel2.textColor = self.color
             instructionLabel2.font = self.font
-            instructionLabel2.fitFontForSize()
             self.view.addSubview(instructionLabel2)
             instructionLabel2.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
         delay(9.2) {
             let instructionLabel3 = UILabel(frame: CGRectMake(0, 165, self.view.frame.width, 100))
             instructionLabel3.textAlignment = .Center
-            instructionLabel3.text = "Steinbeck’s The Pearl"
+            instructionLabel3.text = "Steinbeck’s The Pearl."
             instructionLabel3.alpha = 1.0
             instructionLabel3.textColor = self.color
-            instructionLabel3.font = UIFont(name: "Avenir", size: 21)
-            instructionLabel3
+            instructionLabel3.font = UIFont(name: "Avenir", size: 25)
             self.view.addSubview(instructionLabel3)
             instructionLabel3.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: false)
         }
