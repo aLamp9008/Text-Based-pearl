@@ -15,11 +15,10 @@ public var isTheme = false
 class FirstSlide : UIViewController {
     
 
-    let font = UIFont(name: "Avenir", size: 21)
+    let font = UIFont(name: "avenir", size: 21)
     let color = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1.00)
     var distance = 35
 
-    
     @IBOutlet weak var option1: UIButton!
     
     @IBOutlet weak var option2: UIButton!
@@ -33,6 +32,7 @@ class FirstSlide : UIViewController {
         super.viewDidLoad()
         
         print(view.subviews)
+
         for i in 0...7{
             let distance = 5 + (30 * (Double(i) - 0.8))
             let rect = CGRectMake(5, CGFloat(distance), self.view.frame.width - 10, 100)
@@ -66,6 +66,7 @@ class FirstSlide : UIViewController {
             delay(Double(i) * 1.0 + 1.0, closure: {
                 self.view.addSubview(label)
                 label.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 1, fadeToLabel: true)
+
             })
         }
         
