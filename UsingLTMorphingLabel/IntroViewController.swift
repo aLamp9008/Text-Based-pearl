@@ -37,7 +37,7 @@ class IntroViewController: UIViewController {
         delay(1.7) {
             
             welcomeLabel.font = UIFont(name: "Avenir", size: 23)
-            welcomeLabel.text = "  Welcome to The Pearl: text-based app"
+            welcomeLabel.text = "Welcome to The Pearl: text-based app"
             welcomeLabel.frame = CGRectMake(0, 45, self.view.frame.width, 100)
             welcomeLabel.fitFontForSize()
             welcomeLabel.alpha = 1.0
@@ -96,7 +96,7 @@ class IntroViewController: UIViewController {
             self.delay(1.0) {
                 let instructionLabel5 = UILabel(frame: CGRectMake(0, 275, self.view.frame.width, 100))
                 instructionLabel5.textAlignment = .Center
-                instructionLabel5.text = "To see themes and symbols"
+                instructionLabel5.text = "To see themes and symbols,"
                 instructionLabel5.alpha = 1.0
                 instructionLabel5.textColor = self.color
                 instructionLabel5.font = self.font

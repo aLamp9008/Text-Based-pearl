@@ -53,15 +53,15 @@ class FirstSlide : UIViewController {
             case 3:
                 label.text = "your house. As you go through the"
             case 4:
-                label.text = "normal morning routine you your"
+                label.text = "normal morning routine, your wife,"
             case 5:
-                label.text = "wife, Juana, sees a scorpion near"
+                label.text = "Juana, sees a scorpion near"
             case 6:
-                label.text = "Coyotito, your baby. In an attempt"
+                label.text = "Coyotito, your baby. As you try"
             case 7:
-                label.text = "to save the baby, Coyotito gets stung."
+                label.text = "to save Coyotito, he is stung."
             case 8:
-                label.text = "Juana tries sucking blood out of him"
+                label.text = ""
             case 9:
                 label.text = "You are left with two options."
             case 10:
