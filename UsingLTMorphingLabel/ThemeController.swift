@@ -1,14 +1,14 @@
 //
-//  FourthSlide.swift
-//  Kino's Adventure
+//  ThemeController.swift
+//  
 //
-//  Created by Austin Peng on 6/11/16.
-//  Copyright © 2016 alden lamp. All rights reserved.
+//  Created by alden lamp on 6/12/16.
+//
 //
 
 import UIKit
 
-class FourthSlide: UIViewController {
+class ThemeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

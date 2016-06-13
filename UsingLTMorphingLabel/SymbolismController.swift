@@ -1,14 +1,14 @@
 //
-//  ThirdSlide.swift
+//  SymbolismController.swift
 //  Kino's Adventure
 //
-//  Created by Austin Peng on 6/11/16.
+//  Created by alden lamp on 6/12/16.
 //  Copyright © 2016 alden lamp. All rights reserved.
 //
 
 import UIKit
 
-class ThirdSlide: UIViewController {
+class SymbolismController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
