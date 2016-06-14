@@ -893,7 +893,7 @@ class FirstSlide : UIViewController {
                     label.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 0.5, fadeToLabel: true)
                 })
                 delay(3.5, closure: {
-                    self.option1.setTitle("Attack Them before night arrives", forState: .Normal)
+                    self.option1.setTitle("Attack them before night arrives", forState: .Normal)
                     self.option2.setTitle("Hide until they leave", forState: .Normal)
                 })
             }
@@ -1900,7 +1900,7 @@ class FirstSlide : UIViewController {
                 case 1:
                     label.text = "Later that night, the priest visits,"
                 case 2:
-                    label.text = "blesses you and reminds you to thank"
+                    label.text = "blesses you, and reminds you to thank"
                 case 3:
                     label.text = "God.  The doctor then arrives and tells"
                 case 4:
