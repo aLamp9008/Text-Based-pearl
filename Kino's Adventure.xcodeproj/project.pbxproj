@@ -10,9 +10,11 @@
 		4F26D323EB2B5E2A335D0AFE /* Pods_UsingLTMorphingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10070F9D76218B0613213DA4 /* Pods_UsingLTMorphingLabelTests.framework */; };
 		58803D2514E7F9119C0867B7 /* Pods_UsingLTMorphingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4559A1F80B005ED3F98A51C8 /* Pods_UsingLTMorphingLabelUITests.framework */; };
 		93B8A9A5083BCE52EF7581FA /* Pods_UsingLTMorphingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920D5B658D18F43C743EF96E /* Pods_UsingLTMorphingLabel.framework */; };
-		BF030ED31D0C6D4B0082EE58 /* EndSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF030ED21D0C6D4B0082EE58 /* EndSlide.swift */; };
 		BF3A32CC1D0E50190059E02F /* ThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A32CB1D0E50190059E02F /* ThemeController.swift */; };
 		BF3A32CE1D0E50350059E02F /* SymbolismController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A32CD1D0E50350059E02F /* SymbolismController.swift */; };
+		BF5641231D0F29EF00806891 /* ThemesPerChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5641221D0F29EF00806891 /* ThemesPerChapter.swift */; };
+		BF5641251D0F29FE00806891 /* SymbolsPerChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5641241D0F29FE00806891 /* SymbolsPerChapter.swift */; };
+		BF5641291D0F50AD00806891 /* endSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5641281D0F50AD00806891 /* endSlide.swift */; };
 		BFDE9A081D0918D6006E3510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A071D0918D6006E3510 /* AppDelegate.swift */; };
 		BFDE9A0A1D0918D6006E3510 /* FirstSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A091D0918D6006E3510 /* FirstSlide.swift */; };
 		BFDE9A0D1D0918D6006E3510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE9A0B1D0918D6006E3510 /* Main.storyboard */; };
@@ -51,9 +53,11 @@
 		920D5B658D18F43C743EF96E /* Pods_UsingLTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsingLTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14EE36F579FFE70910E0E12 /* Pods-UsingLTMorphingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabelUITests/Pods-UsingLTMorphingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAAC0D53484DA49026DA6DE3 /* Pods-UsingLTMorphingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingLTMorphingLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsingLTMorphingLabel/Pods-UsingLTMorphingLabel.release.xcconfig"; sourceTree = "<group>"; };
-		BF030ED21D0C6D4B0082EE58 /* EndSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndSlide.swift; sourceTree = "<group>"; };
 		BF3A32CB1D0E50190059E02F /* ThemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeController.swift; sourceTree = "<group>"; };
 		BF3A32CD1D0E50350059E02F /* SymbolismController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolismController.swift; sourceTree = "<group>"; };
+		BF5641221D0F29EF00806891 /* ThemesPerChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesPerChapter.swift; sourceTree = "<group>"; };
+		BF5641241D0F29FE00806891 /* SymbolsPerChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolsPerChapter.swift; sourceTree = "<group>"; };
+		BF5641281D0F50AD00806891 /* endSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = endSlide.swift; sourceTree = "<group>"; };
 		BFDE9A041D0918D6006E3510 /* Kino's Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kino's Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE9A071D0918D6006E3510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFDE9A091D0918D6006E3510 /* FirstSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSlide.swift; sourceTree = "<group>"; };
@@ -157,7 +161,7 @@
 				BFDE9A071D0918D6006E3510 /* AppDelegate.swift */,
 				BFDE9A461D0AEA69006E3510 /* IntroViewController.swift */,
 				BFDE9A091D0918D6006E3510 /* FirstSlide.swift */,
-				BF030ED21D0C6D4B0082EE58 /* EndSlide.swift */,
+				BF5641281D0F50AD00806891 /* endSlide.swift */,
 				BF3A32CB1D0E50190059E02F /* ThemeController.swift */,
 				BF3A32CD1D0E50350059E02F /* SymbolismController.swift */,
 				BFDE9A0B1D0918D6006E3510 /* Main.storyboard */,
@@ -169,6 +173,8 @@
 				BFDE9A4C1D0AF03E006E3510 /* UILabel+DrawAnimation.m */,
 				BFDE9A481D0AF03E006E3510 /* UsingLTMorphingLabel-Bridging-Header.h */,
 				BFDE9A131D0918D6006E3510 /* Info.plist */,
+				BF5641221D0F29EF00806891 /* ThemesPerChapter.swift */,
+				BF5641241D0F29FE00806891 /* SymbolsPerChapter.swift */,
 			);
 			path = UsingLTMorphingLabel;
 			sourceTree = "<group>";
@@ -455,13 +461,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFDE9A4D1D0AF03E006E3510 /* CALayer+DrawAnimation.m in Sources */,
-				BF030ED31D0C6D4B0082EE58 /* EndSlide.swift in Sources */,
+				BF5641251D0F29FE00806891 /* SymbolsPerChapter.swift in Sources */,
 				BFDE9A0A1D0918D6006E3510 /* FirstSlide.swift in Sources */,
 				BFDE9A081D0918D6006E3510 /* AppDelegate.swift in Sources */,
+				BF5641231D0F29EF00806891 /* ThemesPerChapter.swift in Sources */,
 				BF3A32CC1D0E50190059E02F /* ThemeController.swift in Sources */,
 				BFDE9A471D0AEA69006E3510 /* IntroViewController.swift in Sources */,
 				BFDE9A4E1D0AF03E006E3510 /* UILabel+DrawAnimation.m in Sources */,
 				BF3A32CE1D0E50350059E02F /* SymbolismController.swift in Sources */,
+				BF5641291D0F50AD00806891 /* endSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

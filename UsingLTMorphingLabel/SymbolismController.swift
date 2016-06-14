@@ -8,28 +8,43 @@
 
 import UIKit
 
+public var Symbol = 0
+
 class SymbolismController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBAction func back(sender: AnyObject) {
+        
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func thePearl(sender: AnyObject) {
+        
+        Symbol = 1
+        performSegueWithIdentifier("showThemePerChapter", sender: nil)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func theScorpion(sender: AnyObject) {
+        
+        Symbol = 2
+        performSegueWithIdentifier("showThemePerChapter", sender: nil)
+        
     }
-    */
+    
+    @IBAction func theCanoe(sender: AnyObject) {
+        
+        Symbol = 3
+        performSegueWithIdentifier("showThemePerChapter", sender: nil)
+        
+    }
+    
+    @IBAction func theRifle(sender: AnyObject) {
+        
+        Symbol = 4
+        performSegueWithIdentifier("showThemePerChapter", sender: nil)
+        
+    }
 
+    
 }
