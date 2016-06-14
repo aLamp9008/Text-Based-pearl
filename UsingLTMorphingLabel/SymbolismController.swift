@@ -14,7 +14,15 @@ class SymbolismController: UIViewController {
 
     @IBAction func back(sender: AnyObject) {
         
-        
+        if isdead == true{
+            
+            performSegueWithIdentifier("backSymbolEnd", sender: nil)
+            
+        }else if isdead == false{
+            
+            performSegueWithIdentifier("backSymbolSlide", sender: nil)
+            
+        }
         
     }
 
