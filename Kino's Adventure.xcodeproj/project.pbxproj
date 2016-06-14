@@ -164,6 +164,8 @@
 				BF5641281D0F50AD00806891 /* endSlide.swift */,
 				BF3A32CB1D0E50190059E02F /* ThemeController.swift */,
 				BF3A32CD1D0E50350059E02F /* SymbolismController.swift */,
+				BF5641221D0F29EF00806891 /* ThemesPerChapter.swift */,
+				BF5641241D0F29FE00806891 /* SymbolsPerChapter.swift */,
 				BFDE9A0B1D0918D6006E3510 /* Main.storyboard */,
 				BFDE9A0E1D0918D6006E3510 /* Assets.xcassets */,
 				BFDE9A101D0918D6006E3510 /* LaunchScreen.storyboard */,
@@ -173,8 +175,6 @@
 				BFDE9A4C1D0AF03E006E3510 /* UILabel+DrawAnimation.m */,
 				BFDE9A481D0AF03E006E3510 /* UsingLTMorphingLabel-Bridging-Header.h */,
 				BFDE9A131D0918D6006E3510 /* Info.plist */,
-				BF5641221D0F29EF00806891 /* ThemesPerChapter.swift */,
-				BF5641241D0F29FE00806891 /* SymbolsPerChapter.swift */,
 			);
 			path = UsingLTMorphingLabel;
 			sourceTree = "<group>";

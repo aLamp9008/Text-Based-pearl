@@ -23,6 +23,8 @@ class IntroViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        scene = 0
+        
         let welcomeLabel = LTMorphingLabel(frame: CGRectMake(0, 45, self.view.frame.width, 100))
         
         let kinoAdven = LTMorphingLabel(frame: CGRectMake(0, 5, self.view.frame.width, 100))
@@ -86,7 +88,7 @@ class IntroViewController: UIViewController {
         delay(10.2) {
             let instructionLabel4 = UILabel(frame: CGRectMake(0, 200, self.view.frame.width, 100))
             instructionLabel4.textAlignment = .Center
-            instructionLabel4.text = "Please try to follow his path."
+            instructionLabel4.text = "Follow his path the best you can"
             instructionLabel4.alpha = 1.0
             instructionLabel4.textColor = self.color
             instructionLabel4.font = self.font

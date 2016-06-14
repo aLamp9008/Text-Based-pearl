@@ -8,7 +8,11 @@
 
 import UIKit
 
+public var theme = 0
+
 class ThemeController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,20 +20,33 @@ class ThemeController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func back(sender: AnyObject) {
+        
+        if isdead == true{
+            
+            performSegueWithIdentifier("backThemeEnd", sender: nil)
+            
+        }else if isdead == false {
+            
+            performSegueWithIdentifier("backThemeSlide", sender: nil)
+            
+        }
+        
+    }
+
+    @IBAction func greed(sender: AnyObject) {
+        
+        theme = 1
+        performSegueWithIdentifier("showThemePerChapter", sender: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func family(sender: AnyObject) {
+        theme = 2
+        performSegueWithIdentifier("showThemePerChapter", sender: nil)
+        
+        
     }
-    */
-
+    
+    
 }

@@ -29,6 +29,12 @@ class FirstSlide : UIViewController {
     @IBOutlet weak var option2: UIButton!
     
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        print("ITS GONNAAAA BLOWWWWWWWWW")
+    }
+    
     
     var instructionLabels = [UILabel]()
     
@@ -223,8 +229,6 @@ class FirstSlide : UIViewController {
             
             
             continueView.alpha = 1
-            continueButton.alpha = 0
-            
             
             for i in 0...10{
                 
@@ -344,7 +348,7 @@ class FirstSlide : UIViewController {
         if scene == 5{
             
             continueView.alpha = 1
-            continueButton.alpha = 0
+
             
             for i in 0...10{
                 
@@ -571,7 +575,6 @@ class FirstSlide : UIViewController {
         if scene == 10{
             
             continueView.alpha = 1
-            continueButton.alpha = 0
             
             for i in 0...10{
                 let distance = 5 + (27 * (Double(i) - 0.8))
@@ -817,7 +820,7 @@ class FirstSlide : UIViewController {
                 case 5:
                     label.text = "you create a false trail. Finally, you"
                 case 6:
-                    label.text = "and your family rest...."
+                    label.text = "and your family rest..."
                 case 7:
                     label.text = ""
                 case 8:
@@ -890,8 +893,8 @@ class FirstSlide : UIViewController {
                     label.drawOutlineAnimatedWithLineWidth(1.0, withDuration: 0.5, fadeToLabel: true)
                 })
                 delay(3.5, closure: {
-                    self.option1.setTitle("attack Them before night arrives", forState: .Normal)
-                    self.option2.setTitle("hide until they leave", forState: .Normal)
+                    self.option1.setTitle("Attack Them before night arrives", forState: .Normal)
+                    self.option2.setTitle("Hide until they leave", forState: .Normal)
                 })
             }
             
@@ -899,7 +902,7 @@ class FirstSlide : UIViewController {
 
         if scene == 16 {
             
-            continueButton.alpha = 0
+
             continueView.alpha = 1
             
             for i in 0...10{
@@ -920,21 +923,21 @@ class FirstSlide : UIViewController {
                 case 2:
                     label.text = "and make your way down to the trackers."
                 case 3:
-                    label.text = "As you’re about to attack, Coyotito cries out"
+                    label.text = "As you’re about to attack, Coyotito cries"
                 case 4:
-                    label.text = "and one of the men shoots in his direction"
+                    label.text = "out and one of the men shoots in his"
                 case 5:
-                    label.text = "thinking It is a coyote. As he pulls out his"
+                    label.text = "direction thinking It is a coyote. As he"
                 case 6:
-                    label.text = "rifle, you sneak up and kill all three of the"
+                    label.text = "pulls out his rifle, you kill all three of"
                 case 7:
-                    label.text = "men. Unfortunately, however, the bullet has"
+                    label.text = "The men. Unfortunately, however, the bullet"
                 case 8:
-                    label.text = "Hit Coyotito directly in the head and killed"
+                    label.text = "has hit Coyotito directly in the head and"
                 case 9:
-                    label.text = "him. You have no hope left now that your son"
+                    label.text = "killed him. You have no hope left now"
                 case 10:
-                    label.text = "is dead."
+                    label.text = "that your son is dead."
                     
                 default:
                     break
@@ -964,9 +967,9 @@ class FirstSlide : UIViewController {
 
         if scene == 17{
             
-            continueView.alpha = 0
+
             
-            continueButton.alpha = 0
+
             continueView.alpha = 1
             self.continueButton.setTitle("Back to the beginning", forState: .Normal)
             for i in 0...10{
@@ -1113,7 +1116,7 @@ class FirstSlide : UIViewController {
         if scene == 5{
             
             continueView.alpha = 1
-            continueButton.alpha = 0
+
             
             for i in 0...10{
                 
@@ -1282,7 +1285,7 @@ class FirstSlide : UIViewController {
         if scene == 10{
             
             continueView.alpha = 1
-            continueButton.alpha = 0
+
             
             for i in 0...10{
                 let distance = 5 + (27 * (Double(i) - 0.8))
@@ -1410,7 +1413,7 @@ class FirstSlide : UIViewController {
         
         if scene == 16 {
             
-            continueButton.alpha = 0
+
             continueView.alpha = 1
             
             for i in 0...10{
@@ -1551,7 +1554,7 @@ class FirstSlide : UIViewController {
             
             
             continueView.alpha = 1
-            continueButton.alpha = 0
+
             
             
             for i in 0...10{
@@ -1897,7 +1900,7 @@ class FirstSlide : UIViewController {
                 case 1:
                     label.text = "Later that night, the priest visits,"
                 case 2:
-                    label.text = "Blesses you and reminds you to thank"
+                    label.text = "blesses you and reminds you to thank"
                 case 3:
                     label.text = "God.  The doctor then arrives and tells"
                 case 4:
@@ -1956,7 +1959,7 @@ class FirstSlide : UIViewController {
                 case 3:
                     label.text = "You get into a bloody fight and manage"
                 case 4:
-                    label.text = "to chase the him away. Angrily,"
+                    label.text = "to chase him away. Angrily,"
                 case 5:
                     label.text = "Juana suggests that you abandon"
                 case 6:
@@ -2042,9 +2045,9 @@ class FirstSlide : UIViewController {
         }
         if scene == 17{
             
-            continueView.alpha = 0
+
             
-            continueButton.alpha = 0
+
             continueView.alpha = 1
             self.continueButton.setTitle("Back to the beginning", forState: .Normal)
             for i in 0...10{
@@ -2075,7 +2078,7 @@ class FirstSlide : UIViewController {
                 case 8:
                     label.text = ""
                 case 9:
-                    label.text = "The End. Congradulations, You have"
+                    label.text = "The End. congratulations, You have"
                 case 10:
                     label.text = "followed the path of Kino. "
                 default:
