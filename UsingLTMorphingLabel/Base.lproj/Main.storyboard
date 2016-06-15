@@ -128,7 +128,6 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="segueToSymbolism:" destination="XOW-8e-FTa" eventType="touchUpInside" id="daz-wy-8N2"/>
                                             <action selector="symbolism:" destination="XOW-8e-FTa" eventType="touchUpInside" id="dOe-nC-qGP"/>
                                             <segue destination="WAH-Ji-C8J" kind="show" identifier="endToSymbolController" id="Rwe-mI-MMi"/>
                                         </connections>
@@ -965,10 +964,10 @@
         <image name="DarkGradientBackground" width="736" height="1318"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QNl-BB-4mi"/>
-        <segue reference="sTu-uK-6vp"/>
-        <segue reference="vk9-ja-iNK"/>
         <segue reference="UvS-Ec-HiP"/>
-        <segue reference="txu-zB-0K6"/>
+        <segue reference="Rwe-mI-MMi"/>
+        <segue reference="sTu-uK-6vp"/>
+        <segue reference="9Dd-6f-wMP"/>
+        <segue reference="2Mv-T7-4EK"/>
     </inferredMetricsTieBreakers>
 </document>
